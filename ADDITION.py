@@ -1,3 +1,7 @@
-result = add_numbers(5, 3)
-print(result) 
-print(hello world! this is a test github function)
+def add_three():
+    """
+    This function takes user input, adds 3 to it, and returns the result.
+    """
+    number = float(input("Enter a number: "))
+    result = number + 3
+    return result
